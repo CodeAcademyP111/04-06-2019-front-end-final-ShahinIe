@@ -22,6 +22,8 @@
     left: 0; }
   
   .dropdown-menu {
+    border-right-width: 40px ;
+    font-family: Helvetica,Arial,sans-serif;
     position: absolute;
     top: 198%;
     left: -5px;
@@ -32,7 +34,7 @@
     padding: .5rem 0;
     margin: .125rem 0 0;
     font-size: 1rem;
-    color: #212529;
+    color: white;
     text-align: left;
     list-style: none;
     background-clip: padding-box;
@@ -183,13 +185,26 @@
     #header img {
       width: 113px; }
     #header ul.navbar-nav li a {
-      color: #fff;
-      font-family: Arial, Helvetica, sans-serif;
-      text-transform: uppercase;
-      font-weight: 500;
-      font-size: 12px; }
+        
+        position: relative;
+        font-family: Poppins,Helvetica,Arial,sans-serif;
+        padding: 10px 12px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: .6px;
+        color: #000;
+        border-radius: 0;
+        border-width: 0;
+        border-style: solid;
+        border-color: transparent;
+        transition: all .3s ease;
+        line-height: normal;
+        background-color: transparent;
+    }
     #header .dropdown-item {
-      color: black !important; }
+      color: black !important; 
+    }
   
   #slider .cover {
     position: absolute;
